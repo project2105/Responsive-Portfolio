@@ -1,0 +1,455 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    margin: 0 200px;
+    height: 80px;
+}
+
+#name {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    width: 240px;
+    height: 96px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 5%;
+    top: 0px;
+}
+
+#links {
+    position: static;
+    margin-left: 75%;
+    line-height: 4em; 
+    width: 250px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+#container {
+    clear: both;
+    background: url(../images/qbkls.png) repeat;
+    overflow: auto;
+    border-top: 3px solid #ccc;
+}
+
+main {
+    background: #fff;
+    border: #ccc;
+    width: 70vw;
+    display: inline;
+    float: left;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 5% 5%;
+}
+
+#biopic {
+    float: left;
+    margin-right: 15px;
+    width: 30vw;
+}
+
+h2, h3 {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+form p {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 65vw;
+}
+
+input[type="email"] {
+    width: 65vw;
+}
+
+textarea {
+    width: 66vw;
+    height: 14em;
+}
+
+input {
+    font-family : Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    background: #4aaaa5;
+    border: 0;
+    padding: 10px;
+}
+
+.projects {
+    margin: 15px;
+}
+
+main div {
+    display: inline;
+}
+
+.proj_cont {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.proj_cont img {
+    width: 300px;
+}
+
+.caption {
+    width: 260px;
+    background: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    left: 15px;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background: #666666;
+    width: 100%;
+    border: 10px solid #4aaaa5;
+    border-width: 10px 0 0 0;
+    padding-top: 20px;
+}
+
+footer p {
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    header {
+        margin: 0 0;
+        height: 80px;
+    }
+    
+    #name {
+        background: #4aaaa5;
+        color: white;
+        text-align: center;
+        padding: 0 20px;
+        width: 240px;
+        height: 80px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        left: 5%;
+        top: 0px;
+    }
+    
+    #links {
+        position: static;
+        margin-left: 60vw;
+        line-height: 5em; 
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #777777;
+    }
+    
+    a:hover {
+        color: #4aaaa5;
+    }
+    
+    #container {
+        clear: both;
+        background: url(../images/qbkls.png) repeat;
+        overflow: auto;
+        border-top: 3px solid #ccc;
+    }
+    
+    main {
+        background: #fff;
+        border: #ccc;
+        width: 85vw;
+        display: inline;
+        float: left;
+        border: 2px solid #ddd;
+        padding: 20px;
+        margin: 5vw 5%;
+    }
+    
+    #biopic {
+        float: left;
+        width: 40vw;
+        margin-right: 15px;
+    }
+    
+    h2, h3 {
+        color: #4aaaa5;
+    }
+    
+    p {
+        color: #777777;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    
+    blockquote {
+        font-style: italic;
+    }
+    
+    form p {
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"] {
+        width: 80vw;
+    }
+    
+    input[type="email"] {
+        width: 80vw;
+    }
+    
+    textarea {
+        width: 80vw;
+        height: 14em;
+    }
+    
+    input {
+        font-family : Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 5px;
+    }
+    
+    input[type="submit"] {
+        color: white;
+        background: #4aaaa5;
+        border: 0;
+        padding: 10px;
+    }
+    
+    .projects {
+        margin: 5px;
+    }
+    
+    main div {
+        display: inline;
+    }
+    
+    .proj_cont {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    
+    .caption {
+        width: 260px;
+        background: #4aaaa5;
+        text-align: center;
+        position: absolute;
+        bottom: 80px;
+        left: 5px;
+        padding: 20px;
+    }
+    
+    footer {
+        clear: both;
+        text-align: center;
+        background: #666666;
+        width: 100%;
+        border: 10px solid #4aaaa5;
+        border-width: 10px 0 0 0;
+        padding-top: 20px;
+    }
+    
+    footer p {
+        color: white;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        margin: 0;
+        width: 100%;
+        height: 160px;
+    }
+
+    #name {
+        background: #4aaaa5;
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: 80px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        display: inline;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    #links {
+        padding: 20px;
+        width: 200px;
+        height: 30px;
+        margin: 180px 0 0 0;
+        position: relative;
+        top: 50%;
+        left: 30%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #777777;
+    }
+    
+    a:hover {
+        color: #4aaaa5;
+    }
+    
+    #container {
+        clear: both;
+        background: url(../images/qbkls.png) repeat;
+        overflow: auto;
+        border-top: 3px solid #ccc;
+    }
+    
+    main {
+        background: #fff;
+        border: #ccc;
+        width: 80vw;
+        display: inline;
+        float: left;
+        border: 2px solid #ddd;
+        margin: 5vw;
+    }
+    
+    #biopic {
+        margin: 5%;
+        width: 90%;
+    }
+    
+    h2, h3 {
+        color: #4aaaa5;
+    }
+    
+    p {
+        color: #777777;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    
+    blockquote {
+        font-style: italic;
+    }
+    
+    form p {
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"] {
+        width: 95%;
+    }
+    
+    input[type="email"] {
+        width: 95%;
+    }
+    
+    textarea {
+        width: 95%;
+        height: 14em;
+    }
+    
+    input {
+        font-family : Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 5px;
+    }
+    
+    input[type="submit"] {
+        color: white;
+        background: #4aaaa5;
+        border: 0;
+        padding: 10px;
+    }
+    
+    main div {
+        display: block;
+    }
+
+    .proj_cont img {
+        width: 70vw;
+    }
+
+    .projects {
+        width: 80%;
+        margin: 15px;
+        position: static;
+    }
+    
+    .proj_cont {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    
+    .caption {
+        width: 67vw;
+        background: #4aaaa5;
+        text-align: center;
+        position: absolute;
+        bottom: 80px;
+        left: 32px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    #full {
+        width: 100%;
+    }
+    
+    footer {
+        clear: both;
+        text-align: center;
+        background: #666666;
+        width: 100%;
+        border: 10px solid #4aaaa5;
+        border-width: 10px 0 0 0;
+        padding-top: 20px;
+    }
+    
+    footer p {
+        color: white;
+        padding: 5px;
+}
